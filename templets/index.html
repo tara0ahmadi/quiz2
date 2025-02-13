@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../statics/inex.css">
+    <title>quiz</title>
+</head>
+<body>
+  <h1>Lets Do Your Quiz!</h1>  
+<form  id="quiz" name="quiz">
+<p>What is the capital of Iran?</p>
+<input  type="text" id="textbox" name="question1"   maxlength="10">
+<p>What is the capital of China? </p>
+<input type="radio" id="q21" name="question2" value="Hartford" >Hartford
+<input type="radio" id="q22" name="question2" value="Beijing" >Beijing
+
+<p>What is the capital of Canada? </p>
+<input type="radio" id="q31" name="question3" value="Ottawa" >	Ottawa
+<input type="radio" id="q32" name="question3" value="Santiago" >	Santiago
+<input id="btn" type="button" value="Done!" onclick="check();">
+</form>
+<div id="aftersubmit">
+    <p id="message"></p>
+<p id="number_correct"></p>
+
+
+<img id="gif">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
